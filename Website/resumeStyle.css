@@ -1,0 +1,106 @@
+/*color palet
+  --color1: #F3F7D4;
+  --color2: #CBE432;
+  --color3: #EA202C;
+  --color4: #448D76;
+  --color5: #093426;
+}
+-----------------------------*/
+
+/* Global Styles
+-----------------------------*/
+/*add this to all css docs*/
+html {
+    box-sizing: border-box;
+}
+/*and this*/
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #f3f7d4;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+/* Header
+-----------------------------*/
+header {
+    background: #093426;
+    color: #cbe432;
+}
+.profile {
+    background: #093426;
+}
+
+/* Education
+-----------------------------*/
+.education {
+    background: #f3f7d4;
+    color: #093426;
+}
+.education-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Skills
+-----------------------------*/
+.skills {
+    background: #448d76;
+}
+
+/* Work Experience
+-----------------------------*/
+.experience {
+    background: #f3f7d4;
+    color: #093426;
+
+}
+
+/* Certifications
+-----------------------------*/
+.certifications {
+    background: #448d76;
+}
+
+/* Awards
+-----------------------------*/
+.awards {
+    background: #f3f7d4;
+    color: #093426;
+}
+
+/* Evaluations
+-----------------------------*/
+.evaluations {
+    background: #448d76;
+}
+
+/* Extra
+-----------------------------*/
+.extra {
+    background: #f3f7d4;
+    color: #093426;
+}
+
+/* Contact
+-----------------------------*/
+.contact {
+    background: #448d76;
+}
+
+
+h1 {
+    font-size: 50px;
+}
