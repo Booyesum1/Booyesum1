@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booyesum.org</title>
+    <link rel="stylesheet" href="/Website/style.css"
 </head>
 <body>
     B:Yes_
@@ -21,12 +22,16 @@
 
     <h1>User Form</h1>
     <form action="#" method="post" id="character">
-        <label for="firstName">Enter your name: </label><br>
-        <input type="text" id="firstName" name="firstName"><br>
-        <label for="lastName">Enter your family name: </label><br>
-        <input type="text" id="lastName" name="lastName"><br>
-        <label for="uage">Enter your age: </label><br>
-        <input type="number" id="uage" name="uage">
+        <!--This is the first fieldset in the form-->
+        <fieldset>
+            <legend>User Information</legend>
+            <label for="firstName">Enter your name: </label><br>
+            <input type="text" id="firstName" name="firstName"><br>
+            <label for="lastName">Enter your family name: </label><br>
+            <input type="text" id="lastName" name="lastName"><br>
+            <label for="uage">Enter your age: </label><br>
+            <input type="number" id="uage" name="uage">
+        </fieldset>
     </form>
 </body>
 </html>
