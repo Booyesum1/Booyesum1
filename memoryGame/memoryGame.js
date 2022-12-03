@@ -70,7 +70,7 @@ createBoard()
 
 function checkMatch() {
     const cards = document.querySelectorAll('img')
-    const resultDisplay = document.querySelector('#result')
+    const resultDisplay = document.querySelector('#results')
     const optionOneId = cardsChosenIds[0]
     const optionTwoId = cardsChosenIds[1]
     document.querySelectorAll('img')
