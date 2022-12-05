@@ -117,8 +117,8 @@ function checkForCollisions() {
     //check for block collisions
     for (let i = 0; i < blocks.length; i++) {
         if (
-            (ballCurrentPosition[0] > blocks[i].bottomLeft[0] && ballCurrentPosition[0] < blocks[i].bottomRight[0] &&
-            (ballCurrentPosition[1] + ballDiameter) > blocks[i].bottomLeft && ballCurrentPosition[1] < blocks[i].topLeft[1])
+            ((ballCurrentPosition[0] > blocks[i].bottomLeft[0]) && (ballCurrentPosition[0] < blocks[i].bottomRight[0])) &&
+            (((ballCurrentPosition[1] + ballDiameter) > blocks[i].bottomLeft[1]) && (ballCurrentPosition[1] < blocks[i].topLeft[1]))
         ) {
             const allBlocks = Array.from(document.querySelectorAll('.block'))
             allBlocks[i].classList.remove('block')
